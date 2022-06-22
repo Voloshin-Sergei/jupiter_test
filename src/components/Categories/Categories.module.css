@@ -38,6 +38,7 @@
   }
 
   .categories__list {
+    display: none;
     position: absolute;
     z-index: 1;
     flex-direction: column;
@@ -47,6 +48,11 @@
     background-color: #fff;
     border: 1px solid #f3d1bf;
     border-radius: 6px;
+    box-shadow: 0 3px 9px rgba(57 20 0 / 8%);
+  }
+
+  .categories__list.visible {
+    display: flex;
   }
 
   .categories__active {
