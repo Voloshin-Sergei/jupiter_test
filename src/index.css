@@ -1,3 +1,9 @@
+* {
+  transition: all 0.3s ease;
+}
+
 body {
+  box-sizing: border-box;
+  margin: 0;
   font-family: 'Epilogue', sans-serif;
 }
