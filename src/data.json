@@ -15,6 +15,15 @@
     { "id": 6, "category": 2, "title": "HandP", "img": "img_6.jpg" },
     { "id": 7, "category": 4, "title": "Architect", "img": "img_7.jpg" },
     { "id": 8, "category": 1, "title": "CalC", "img": "img_8.jpg" },
-    { "id": 9, "category": 2, "title": "Sport", "img": "img_9.jpg" }
+    { "id": 9, "category": 2, "title": "Sport", "img": "img_9.jpg" },
+    { "id": 10, "category": 1, "title": "SOFA 2", "img": "img_1.jpg" },
+    { "id": 11, "category": 2, "title": "KeyBoard 2", "img": "img_2.jpg" },
+    { "id": 12, "category": 3, "title": "Work Media 2", "img": "img_3.jpg" },
+    { "id": 13, "category": 4, "title": "Done 2", "img": "img_4.jpg" },
+    { "id": 14, "category": 1, "title": "Abstract 2", "img": "img_5.jpg" },
+    { "id": 15, "category": 2, "title": "HandP 2", "img": "img_6.jpg" },
+    { "id": 16, "category": 4, "title": "Architect 2", "img": "img_7.jpg" },
+    { "id": 17, "category": 1, "title": "CalC 2", "img": "img_8.jpg" },
+    { "id": 18, "category": 2, "title": "Sport 2", "img": "img_9.jpg" }
   ]
 }
