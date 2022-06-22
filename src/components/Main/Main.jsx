@@ -7,10 +7,8 @@ import styles from './Main.module.css';
 export const Main = () => {
   return (
     <main className={styles.main}>
-      <div className={styles.main__container}>
-        <Categories categories={data.categories} />
-        <CardList categories={data.categories} cards={data.cards} />
-      </div>
+      <Categories categories={data.categories} />
+      <CardList categories={data.categories} cards={data.cards} />
     </main>
   );
 };
