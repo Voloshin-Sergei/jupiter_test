@@ -1,0 +1,6 @@
+.cardlist {
+  background-color: inherit;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+  gap: 32px 30px;
+}

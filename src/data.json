@@ -6,7 +6,7 @@
     { "id": 4, "title": "Illustration" },
     { "id": 5, "title": "Motion" }
   ],
-  "items": [
+  "cards": [
     { "id": 1, "category": 1, "title": "SOFA", "img": "/assets/img_1.jpg" },
     { "id": 2, "category": 2, "title": "KeyBoard", "img": "/assets/img_2.jpg" },
     { "id": 3, "category": 3, "title": "Work Media", "img": "/assets/img_3.jpg" },
