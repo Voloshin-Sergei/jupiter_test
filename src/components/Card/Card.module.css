@@ -4,6 +4,12 @@
   height: 416px;
   overflow: hidden;
   border-radius: 6px;
+  cursor: pointer;
+}
+
+.active {
+  outline: 7px solid #4fe24a;
+  outline-offset: -7px;
 }
 
 .card__label {
@@ -13,8 +19,13 @@
   padding: 9px 20px 8px 16px;
   color: #391400;
   background-color: #fff;
+  border: 1px solid #fff;
   border-radius: 19px;
   cursor: pointer;
+}
+
+.card__label:hover {
+  border: 1px solid #4fe24a;
 }
 
 .card__title {
