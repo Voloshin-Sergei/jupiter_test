@@ -9,6 +9,7 @@ export const Main = () => {
     <main className={styles.main}>
       <Categories categories={data.categories} />
       <CardList categories={data.categories} cards={data.cards} />
+      <button className={styles.main__btn}>load more</button>
     </main>
   );
 };
