@@ -9,7 +9,7 @@ export const Main = () => {
     <main className={styles.main}>
       <div className={styles.main__container}>
         <Categories categories={data.categories} />
-        <CardList cards={data.cards} />
+        <CardList categories={data.categories} cards={data.cards} />
       </div>
     </main>
   );

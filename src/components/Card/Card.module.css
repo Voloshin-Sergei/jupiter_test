@@ -1,0 +1,29 @@
+.card {
+  position: relative;
+  width: 370px;
+  height: 416px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.card__label {
+  position: absolute;
+  left: 48px;
+  bottom: 122px;
+  padding: 9px 20px 8px 16px;
+  background-color: #fff;
+  color: #391400;
+  border-radius: 19px;
+  cursor: pointer;
+}
+
+.card__title {
+  position: absolute;
+  left: 48px;
+  bottom: 53px;
+  margin: 0;
+  color: #fff;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+}

@@ -7,14 +7,14 @@
     { "id": 5, "title": "Motion" }
   ],
   "cards": [
-    { "id": 1, "category": 1, "title": "SOFA", "img": "/assets/img_1.jpg" },
-    { "id": 2, "category": 2, "title": "KeyBoard", "img": "/assets/img_2.jpg" },
-    { "id": 3, "category": 3, "title": "Work Media", "img": "/assets/img_3.jpg" },
-    { "id": 4, "category": 4, "title": "Done", "img": "/assets/img_4.jpg" },
-    { "id": 5, "category": 1, "title": "Abstract", "img": "/assets/img_5.jpg" },
-    { "id": 6, "category": 2, "title": "HandP", "img": "/assets/img_6.jpg" },
-    { "id": 7, "category": 4, "title": "Architect", "img": "/assets/img_7.jpg" },
-    { "id": 8, "category": 1, "title": "CalC", "img": "/assets/img_8.jpg" },
-    { "id": 9, "category": 2, "title": "Sport", "img": "/assets/img_9.jpg" }
+    { "id": 1, "category": 1, "title": "SOFA", "img": "img_1.jpg" },
+    { "id": 2, "category": 2, "title": "KeyBoard", "img": "img_2.jpg" },
+    { "id": 3, "category": 3, "title": "Work Media", "img": "img_3.jpg" },
+    { "id": 4, "category": 4, "title": "Done", "img": "img_4.jpg" },
+    { "id": 5, "category": 1, "title": "Abstract", "img": "img_5.jpg" },
+    { "id": 6, "category": 2, "title": "HandP", "img": "img_6.jpg" },
+    { "id": 7, "category": 4, "title": "Architect", "img": "img_7.jpg" },
+    { "id": 8, "category": 1, "title": "CalC", "img": "img_8.jpg" },
+    { "id": 9, "category": 2, "title": "Sport", "img": "img_9.jpg" }
   ]
 }
