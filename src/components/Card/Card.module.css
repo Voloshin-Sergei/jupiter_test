@@ -38,3 +38,9 @@
   font-size: 40px;
   line-height: 48px;
 }
+
+@media (max-width: 1039px) {
+  .card {
+    cursor: auto;
+  }
+}

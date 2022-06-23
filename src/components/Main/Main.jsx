@@ -46,7 +46,9 @@ export const Main = () => {
       setActiveCard(null);
       return;
     }
-    setActiveCard(id);
+    if (window.innerWidth > 1039) {
+      setActiveCard(id);
+    }
   };
 
   return (
