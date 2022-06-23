@@ -11,20 +11,42 @@ export const Main = () => {
   const [dataCard, setDataCard] = useState([]);
   const [cardsCount, setCardsCount] = useState(9);
   const [activeCategory, setActiveCategory] = useState(0);
+  const [activeCard, setActiveCard] = useState(null);
 
   useEffect(() => {
     setDataCard(data.cards);
   }, []);
+
+  useEffect(() => {
+    const deleteCard = (event) => {
+      if (event.key === 'Delete' && activeCard) {
+        setDataCard(dataCard.filter((card) => card.id !== activeCard));
+      }
+      return;
+    };
+
+    document.addEventListener('keydown', deleteCard);
+
+    return () => {
+      document.removeEventListener('keydown', deleteCard);
+    };
+  }, [activeCard, dataCard]);
 
   const countHandler = () => {
     setCardsCount(cardsCount + 9);
   };
 
   const categoryHandler = (index) => {
-    if (index === 0) {
-      setCardsCount(9);
-    }
+    setCardsCount(9);
     setActiveCategory(index);
+  };
+
+  const activeCardHandler = (id) => {
+    if (id === activeCard) {
+      setActiveCard(null);
+      return;
+    }
+    setActiveCard(id);
   };
 
   return (
@@ -35,6 +57,8 @@ export const Main = () => {
         categories={data.categories}
       />
       <CardList
+        activeCardHandler={activeCardHandler}
+        activeCard={activeCard}
         categories={data.categories}
         cards={dataCard
           .filter((card) => {

@@ -1,10 +1,11 @@
 import styles from './Card.module.css';
 
-export const Card = ({ card, category, activeHandler, active }) => {
+export const Card = ({ card, category, activeCardHandler, activeCard }) => {
   return (
     <li
-      onClick={() => activeHandler(card.id)}
-      className={`${styles.card} ${active === card.id ? styles.active : ''}`}>
+      onClick={() => activeCardHandler(card.id)}
+      className={`${styles.card} ${activeCard === card.id ? styles.active : ''}`}
+    >
       <img
         className={styles.card__img}
         src={process.env.PUBLIC_URL + `/assets/${card.img}`}
