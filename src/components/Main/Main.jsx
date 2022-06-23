@@ -57,6 +57,7 @@ export const Main = () => {
         categories={data.categories}
       />
       <CardList
+        categoryHandler={categoryHandler}
         activeCardHandler={activeCardHandler}
         activeCard={activeCard}
         categories={data.categories}
