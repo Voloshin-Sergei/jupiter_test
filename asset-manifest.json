@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/jupiter_test/static/css/main.2e2e0797.css",
+    "main.js": "/jupiter_test/static/js/main.16c4d4b8.js",
+    "static/js/787.f6402160.chunk.js": "/jupiter_test/static/js/787.f6402160.chunk.js",
+    "index.html": "/jupiter_test/index.html",
+    "main.2e2e0797.css.map": "/jupiter_test/static/css/main.2e2e0797.css.map",
+    "main.16c4d4b8.js.map": "/jupiter_test/static/js/main.16c4d4b8.js.map",
+    "787.f6402160.chunk.js.map": "/jupiter_test/static/js/787.f6402160.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2e2e0797.css",
+    "static/js/main.16c4d4b8.js"
+  ]
+}
