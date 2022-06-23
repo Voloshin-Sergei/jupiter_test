@@ -39,6 +39,7 @@ export const Main = () => {
   const categoryHandler = (index) => {
     setCardsCount(9);
     setActiveCategory(index);
+    setActiveCard(null);
   };
 
   const activeCardHandler = (id) => {
