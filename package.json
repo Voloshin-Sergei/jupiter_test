@@ -1,8 +1,8 @@
 {
   "name": "jupiter_test",
-  "homepage": "https://voloshin-sergei.github.io/jupiter_test",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://voloshin-sergei.github.io/jupiter_test/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
